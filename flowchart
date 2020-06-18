@@ -1,0 +1,21 @@
+Utility - 
+		connect()
+		captcha
+		fetchGradeCard
+		isResultOut
+		printClgCodes
+		getClgCodes
+
+printClgCodes -
+		printClgCodes
+
+fetchScoreCard -
+		downloadAllResult
+		getResult
+		main
+
+SendMail - 
+		sendMail
+		
+		“smtplib” creates a Simple Mail Transfer Protocol client session object which is used to send emails to any valid email id on the 			internet. Different websites use different port numbers.
+In this article, we are using a Gmail account to send a mail. Port number used here is ‘587’. And if you want to send mail using a website other than Gmail, you need to get the corresponding information. For security reasons, now put the SMTP connection in the TLS mode. TLS (Transport Layer Security) encrypts all the SMTP commands.  https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/
